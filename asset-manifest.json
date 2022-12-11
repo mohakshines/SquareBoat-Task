@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SquareBoat-Task/static/css/main.e6c13ad2.css",
+    "main.js": "/SquareBoat-Task/static/js/main.76221b61.js",
+    "static/js/787.c46ecad9.chunk.js": "/SquareBoat-Task/static/js/787.c46ecad9.chunk.js",
+    "static/media/Hero.png": "/SquareBoat-Task/static/media/Hero.7a06c0948c63bf94246d.png",
+    "static/media/goldline@2x.png": "/SquareBoat-Task/static/media/goldline@2x.e14ca61c486f90504fd1.png",
+    "static/media/kanba-1@2x.png": "/SquareBoat-Task/static/media/kanba-1@2x.926ef175310dd5f3c9c7.png",
+    "static/media/kanba@2x.png": "/SquareBoat-Task/static/media/kanba@2x.926ef175310dd5f3c9c7.png",
+    "static/media/velocity-9@2x.png": "/SquareBoat-Task/static/media/velocity-9@2x.0032bad902c696539076.png",
+    "static/media/solaytic@2x.png": "/SquareBoat-Task/static/media/solaytic@2x.77701778b1e10abd4b71.png",
+    "static/media/ideaa@2x.png": "/SquareBoat-Task/static/media/ideaa@2x.60265ca2ef3e295fe5c0.png",
+    "static/media/lighting@2x.png": "/SquareBoat-Task/static/media/lighting@2x.6e8b099644ac1ff0b5bc.png",
+    "static/media/liva@2x.png": "/SquareBoat-Task/static/media/liva@2x.53614da479202068e1e1.png",
+    "static/media/ztos@2x.png": "/SquareBoat-Task/static/media/ztos@2x.7a19bb2c0027081ae04a.png",
+    "index.html": "/SquareBoat-Task/index.html",
+    "main.e6c13ad2.css.map": "/SquareBoat-Task/static/css/main.e6c13ad2.css.map",
+    "main.76221b61.js.map": "/SquareBoat-Task/static/js/main.76221b61.js.map",
+    "787.c46ecad9.chunk.js.map": "/SquareBoat-Task/static/js/787.c46ecad9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.76221b61.js"
+  ]
+}
