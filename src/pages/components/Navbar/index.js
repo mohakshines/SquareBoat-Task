@@ -28,12 +28,12 @@ const Navbar = () => {
     return (
         <>
             <div className={classes.root}>
-                <a href="/">
+                {/* <a href="/"> */}
                 <div>
                     <span style={{ color: 'white' }}><b>My</b></span>
                     <span style={{ color: '#43AFFF' }}><b>Jobs</b></span>
                 </div>
-                </a>
+                {/* </a> */}
                 {userLogin ? (
                     <Button
                         variant="contained"
