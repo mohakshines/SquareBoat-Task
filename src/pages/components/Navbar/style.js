@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: '#303F60',
         display: 'flex',
         justifyContent: 'space-between',
+        // zIndex: 1024
     },
 }));
 

@@ -1,9 +1,7 @@
-import { useEffect } from 'react';
-// import './App.css';
-import { Routes, Route, useNavigate } from "react-router-dom";
-import Homepage from "./pages/homepage/Homepage"
-import Login from "./pages/login/Login"
-import Home from "./pages/home/Home"
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./pages/homepage"
+import Login from "./pages/login"
+import Home from "./pages/home"
 import PrivateRoute from './helper/PrivateRoute';
 import Navbar from './pages/components/Navbar';
 

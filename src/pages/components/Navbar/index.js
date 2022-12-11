@@ -20,13 +20,20 @@ const Navbar = () => {
             setAlert(false)
         }, 3000)
     }
+
+    const login = () => {
+        navigate('/login')
+    }
+
     return (
         <>
             <div className={classes.root}>
+                <a href="/">
                 <div>
                     <span style={{ color: 'white' }}><b>My</b></span>
                     <span style={{ color: '#43AFFF' }}><b>Jobs</b></span>
                 </div>
+                </a>
                 {userLogin ? (
                     <Button
                         variant="contained"
@@ -35,16 +42,13 @@ const Navbar = () => {
                         Logout
                     </Button>
                 ) : (
-                        <Button variant="contained" color="primary" href="/login">
+                        <Button variant="contained" color="primary" onClick={() => login()}>
                             Login
                         </Button>
                 )}
             </div >
             <Snackbar
-                anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "center",
-                }}
+                anchorOrigin={{ vertical: "top", horizontal: "center", }}
                 open={alert}
             >
                 <Alert onClose={() => setAlert(false)} severity="success">

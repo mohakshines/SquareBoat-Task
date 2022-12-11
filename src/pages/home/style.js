@@ -12,10 +12,24 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: '0px 3px 6px #557DA526',
         borderRadius: '5px',
         opacity: 1,
-        wordWrap: 'break-word'
-    },
-    gridContainer: {
+        wordWrap: 'break-word',
 
+    },
+    header: {
+        display: 'flex',
+        alignItems: 'center',
+        height: '50vh',
+        backgroundColor: '#303F60',
+        paddingLeft: '70px',
+        paddingTop: '10px',
+        color: 'white'
+    },
+    pagination: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingBottom: "30px",
+        marginTop: '30px'
     }
 
 }));
