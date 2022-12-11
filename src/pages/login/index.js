@@ -72,7 +72,7 @@ export default function SignUpForm() {
                         <div>
                             <h1 className={classes.formHeading}>Log In</h1>
                             <Field as={TextField} id="outlined-basic" label="Enter your email" name='email' variant="outlined" size="small" helperText={formik.touched.email && formik.errors.email} error={formik.touched.email && Boolean(formik.errors.email)} /><br /><br />
-                            <Field as={TextField} id="outlined-basic" label="Enter your Password" name='pass' variant="outlined" size="small" helperText={formik.touched.pass && formik.errors.pass} error={formik.touched.pass && Boolean(formik.errors.pass)} /><br /><br />
+                            <Field as={TextField} id="outlined-basic" label="Enter your Password" name='pass' type="password" variant="outlined" size="small" helperText={formik.touched.pass && formik.errors.pass} error={formik.touched.pass && Boolean(formik.errors.pass)} /><br /><br />
                             <Button style={{ backgroundColor: '#43AFFF', color: 'white' }} size="small" variant='contained' type='submit'>Log In</Button>
                         </div>
                     </Form>
